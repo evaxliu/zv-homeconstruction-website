@@ -1,10 +1,3 @@
-# Z&V Homeconstruction Website
-
-Private client website for Z&V Homeconstruction LLC.
-
-This repository is proprietary and confidential.  
-Do not copy, distribute, modify, or reuse this code without written permission.
-
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
