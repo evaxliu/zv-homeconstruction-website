@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import TempNav from "./components/TempNav";
+import NavBar from "./components/NavBar";
 
 export const metadata: Metadata = {
   title: "Z&V Homeconstruction LLC | Bothell WA | General Contractor",
@@ -18,7 +18,7 @@ export default function RootLayout({
       className="h-full antialiased"
     >
       <body className="flex flex-col min-h-screen">
-        <TempNav />
+        <NavBar />
         <main>
           {children}
         </main>
