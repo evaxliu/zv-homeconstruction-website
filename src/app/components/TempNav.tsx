@@ -17,8 +17,8 @@ export default function TempNav() {
   };
   
   return (
-    <header className='bg-black sticky top-0 z-50'>
-      <nav className='mx-auto max-w-7xl flex items-center justify-between py-6 px-6 bg-white'>
+    <header className='bg-white sticky top-0 z-50'>
+      <nav className='mx-auto max-w-7xl flex items-center justify-between py-6 px-6'>
         <div className="flex text-slate-600">
           <span className="font-serif text-xl tracking-tight select-none">Z & V</span>
         </div>
