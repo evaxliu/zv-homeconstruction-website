@@ -2,12 +2,14 @@
 import React, { useState } from 'react';
 import { ChevronLeft } from 'lucide-react';
 import { ChevronRight } from 'lucide-react';
+import Image from 'next/image';
 
 export default function Carousel() {
   const images = [
-    '<https://via.placeholder.com/800x400.png?text=Slide+1>',
-    '<https://via.placeholder.com/800x400.png?text=Slide+2>',
-    '<https://via.placeholder.com/800x400.png?text=Slide+3>',
+    '/stock1.jpg',
+    '/stock2.jpg',
+    '/stock3.jpg',
+    '/stock4.jpg',
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -30,7 +32,7 @@ export default function Carousel() {
               index === currentIndex ? 'translate-x-0' : 'translate-x-full'
             }`}
           >
-            <img src={image} alt={`Slide ${index}`} className="w-full h-full object-cover" />
+            <Image src={image} alt={`Slide ${index}`} className="w-full h-full object-cover" width={500} height={500}/>
           </div>
         ))}
       </div>
