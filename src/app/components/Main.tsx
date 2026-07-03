@@ -3,11 +3,11 @@ import Carousel from "./Carousel";
 
 export default function Main() {
   return(
-    <section className="bg-blue-950 flex flex-wrap">
-      <article className="">
+    <section className="flex flex-wrap bg-gray-800">
+      <article className="p-20">
         <p className="">Greater Seattle Area & Puget Sound</p>
-        <h1 className="">
-          Your <i>Satisfaction</i> is our Goal
+        <h1 className="text-3xl">
+          Your Satisfaction is our Goal
         </h1>
         <p className="">
           Residential &amp; small commercial renovation across the Puget Sound.
