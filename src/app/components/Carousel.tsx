@@ -23,8 +23,8 @@ export default function Carousel() {
   };
 
   return (
-    <div className="relative w-full max-w-3xl mx-auto">
-      <div className="overflow-hidden relative h-64">
+    <div className="relative">
+      <div className="overflow-hidden relative h-64 md:h-[50vh]">
         {images.map((image, index) => (
           <div
             key={index}
@@ -37,16 +37,16 @@ export default function Carousel() {
         ))}
       </div>
       <button
-        className="absolute top-1/2 left-0 transform -translate-y-1/2p-2"
+        className="absolute top-1/2 left-0 transform -translate-y-1/2p-2 hover:bg-black/50 md:py-5 md:border"
         onClick={prevSlide}
       >
-        <ChevronLeft/>
+        <ChevronLeft />
       </button>
       <button
-        className="absolute top-1/2 right-0 transform -translate-y-1/2p-2"
+        className="absolute top-1/2 right-0 transform -translate-y-1/2p-2 hover:bg-black/50 md:py-5 md:border"
         onClick={nextSlide}
       >
-        <ChevronRight/>
+        <ChevronRight />
       </button>
     </div>
   );

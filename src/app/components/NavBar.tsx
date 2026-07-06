@@ -49,7 +49,7 @@ export default function NavBar() {
             href={"/"} 
             className={"text-slate-600 hover:text-white hover:bg-slate-800 border px-3 py-2 text-sm font-medium"}
           >
-            Get a Quote
+            GET A QUOTE
           </Link>
         </div>
       </nav>
