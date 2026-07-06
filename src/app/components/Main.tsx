@@ -19,7 +19,7 @@ export default function Main() {
             Your Satisfaction is Our Goal
           </h1>
         </div>
-        <div className="flex">
+        <div className="flex md:p-5">
           <Link 
             key={"View our quote"} 
             href={"/"} 
