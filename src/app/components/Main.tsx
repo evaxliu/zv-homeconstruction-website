@@ -2,9 +2,15 @@ import Link from "next/link";
 import Carousel from "./Carousel";
 
 export default function Main() {
+  const slides = [
+    '/bathtub1.avif',
+    '/toilet1.avif',
+    '/kitchen1.avif',
+    '/shower1.avif',
+  ];
   return(
-    <section className="flex flex-col bg-slate-800">
-      <article className="flex flex-col text-center items-center md:items-center gap-5 p-15">
+    <section className="flex flex-col md:flex-row bg-slate-800">
+      <article className="flex flex-col text-center items-center gap-5 p-15 md:flex-1 md:justify-center">
         <p className="">
           Residential &amp; small commercial renovation across the Greater Seattle Area.
         </p>
@@ -23,8 +29,10 @@ export default function Main() {
           </Link>
         </div>
       </article>
-      <aside className="grow block p-6 rounded-base shadow-xs">
-        <Carousel />
+      <aside className="flex items-center justify-center md:flex-1 md:p-10">
+        <div className="max-w-lg rounded-xl">
+          <Carousel slides={slides} />
+        </div>
       </aside>
     </section>
   )
