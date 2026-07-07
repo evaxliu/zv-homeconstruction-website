@@ -10,8 +10,8 @@ export default function Main() {
   ];
   return(
     <section className="w-full bg-slate-800 text-white">
-      <div className="mx-auto max-w-7xl px-6 min-h-[calc(100svh-80px)] flex flex-col md:gap-10 md:flex-row md:items-center">
-        <article className="flex flex-col text-center items-center gap-5 p-15 md:p-0 md:flex-1 md:justify-center">
+      <div className="mx-auto max-w-7xl px-6 py-10 md:py-0 min-h-[calc(100svh-80px)] flex flex-col md:gap-10 md:flex-row md:items-center">
+        <article className="flex flex-col text-center items-center gap-5 p-15 md:flex-1 md:justify-center">
           <p className="">
             Residential &amp; small commercial renovation across the Greater Seattle Area.
           </p>
@@ -30,7 +30,7 @@ export default function Main() {
             </Link>
           </div>
         </article>
-        <aside className="flex items-center justify-end md:flex-1">
+        <aside className="flex flex-col items-center jusitfy-center md:justify-end md:flex-1">
           <div className="w-full max-w-sm sm:max-w-md lg:max-w-lg">
             <Carousel slides={slides} autoSlide={true}/>
           </div>
