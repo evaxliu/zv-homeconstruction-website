@@ -24,7 +24,7 @@ export default function Services() {
             What We Build
           </h1>
         </div>
-        <div className="flex">
+        <div className="flex flex-col md:flex-row">
           <Card title="Residential" description="" imageSrc={"/house1.avif"} />
           <Card title="Small Commercial" description="" imageSrc={"/house1.avif"} />
           <Card title="Exterior & Repairs" description="" imageSrc={"/house1.avif"} />
