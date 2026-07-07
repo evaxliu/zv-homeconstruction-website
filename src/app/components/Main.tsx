@@ -10,7 +10,7 @@ export default function Main() {
   ];
   return(
     <section className="w-full bg-slate-800 text-white">
-      <div className="mx-auto max-w-7xl px-6 min-h-[calc(100svh-80px)] flex flex-col gap-10 md:flex-row md:items-center">
+      <div className="mx-auto max-w-7xl px-6 min-h-[calc(100svh-80px)] flex flex-col md:gap-10 md:flex-row md:items-center">
         <article className="flex flex-col text-center items-center gap-5 p-15 md:p-0 md:flex-1 md:justify-center">
           <p className="">
             Residential &amp; small commercial renovation across the Greater Seattle Area.
