@@ -1,16 +1,10 @@
 import Link from "next/link";
-import Carousel from "./Carousel";
+import Card from "./Card";
 
 export default function Services() {
-  const slides = [
-    '/bathtub1.avif',
-    '/toilet1.avif',
-    '/kitchen1.avif',
-    '/shower1.avif',
-  ];
   return(
-    <section className="flex flex-col md:flex-row bg-slate-800">
-      <article className="flex flex-col text-center items-center gap-5 py-20 md:flex-1 md:justify-center">
+    <section className="flex flex-col md:flex-row bg-white text-black">
+      <article className="flex flex-col text-center items-center gap-5 py-10 md:flex-1 md:justify-center">
         <ul className="flex gap-5 md:gap-10">
           <li>
             Licensed
@@ -27,11 +21,13 @@ export default function Services() {
         </ul>
         <div>
           <h1 className="text-5xl font-[gelasio]">
-            Services
+            What We Build
           </h1>
         </div>
-        <div className="flex md:p-5">
-          
+        <div className="flex">
+          <Card title="Residential" description="" imageSrc={"/house1.avif"} />
+          <Card title="Small Commercial" description="" imageSrc={"/house1.avif"} />
+          <Card title="Exterior & Repairs" description="" imageSrc={"/house1.avif"} />
         </div>
       </article>
     </section>
