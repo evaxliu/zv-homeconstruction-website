@@ -3,7 +3,7 @@ import "./globals.css";
 import NavBar from "./components/NavBar";
 
 export const metadata: Metadata = {
-  // metadataBase: new URL("https://your-domain.com"),
+  metadataBase: new URL("https://zv-homeconstruction-website.vercel.app/"),
 
   title: "Z&V Homeconstruction LLC | General Contractor in Bothell, WA",
   description:
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     title: "Z&V Homeconstruction LLC | General Contractor in Bothell, WA",
     description:
       "Residential and small commercial renovation services in Bothell, WA and the Greater Seattle Area.",
-    // url: "https://your-domain.com",
+    url: "https://zv-homeconstruction-website.vercel.app/",
     siteName: "Z&V Homeconstruction LLC",
     images: [
       {
