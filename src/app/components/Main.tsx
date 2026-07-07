@@ -9,31 +9,33 @@ export default function Main() {
     '/shower1.avif',
   ];
   return(
-    <section className="flex flex-col md:flex-row bg-slate-800">
-      <article className="flex flex-col text-center items-center gap-5 p-15 md:flex-1 md:justify-center">
-        <p className="">
-          Residential &amp; small commercial renovation across the Greater Seattle Area.
-        </p>
-        <div>
-          <h1 className="text-5xl font-[gelasio]">
-            Your Satisfaction is Our Goal
-          </h1>
-        </div>
-        <div className="flex md:p-5">
-          <Link 
-            key={"View our quote"} 
-            href={"/"} 
-            className={"text-black bg-white hover:text-slate-400 border px-4 py-2 text-sm font-sm"}
-          >
-            VIEW OUR WORK
-          </Link>
-        </div>
-      </article>
-      <aside className="flex items-center justify-center md:flex-1 md:p-5">
-        <div className="max-w-lg rounded-xl">
-          <Carousel slides={slides} autoSlide={true}/>
-        </div>
-      </aside>
+    <section className="w-full bg-slate-800 text-white">
+      <div className="mx-auto max-w-7xl px-6 min-h-[calc(100svh-80px)] flex flex-col gap-10 md:flex-row md:items-center">
+        <article className="flex flex-col text-center items-center gap-5 p-15 md:p-0 md:flex-1 md:justify-center">
+          <p className="">
+            Residential &amp; small commercial renovation across the Greater Seattle Area.
+          </p>
+          <div>
+            <h1 className="text-5xl font-[gelasio]">
+              Your Satisfaction is Our Goal
+            </h1>
+          </div>
+          <div className="flex md:p-5">
+            <Link 
+              key={"View our quote"} 
+              href={"/"} 
+              className={"text-black bg-white hover:text-slate-400 border px-4 py-2 text-sm font-sm"}
+            >
+              VIEW OUR WORK
+            </Link>
+          </div>
+        </article>
+        <aside className="flex items-center justify-end md:flex-1">
+          <div className="w-full max-w-sm sm:max-w-md lg:max-w-lg">
+            <Carousel slides={slides} autoSlide={true}/>
+          </div>
+        </aside>
+      </div>
     </section>
   )
 }
