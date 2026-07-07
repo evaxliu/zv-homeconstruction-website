@@ -29,7 +29,7 @@ export default function Main() {
           </Link>
         </div>
       </article>
-      <aside className="flex items-center justify-center md:flex-1 md:p-10">
+      <aside className="flex items-center justify-center md:flex-1 md:p-5">
         <div className="max-w-lg rounded-xl">
           <Carousel slides={slides} autoSlide={true}/>
         </div>

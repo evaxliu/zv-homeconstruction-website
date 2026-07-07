@@ -39,7 +39,7 @@ export default function NavBar() {
               key={item.name} 
               href={item.href} 
               onClick={() => handleActive(item.name)} 
-              className={(current == item.name ? "text-slate-800 underline " : "text-slate-600 ") + "hover:text-slate-800 px-3 py-2 text-sm font-medium"}
+              className={(current == item.name ? "text-slate-800 underline " : "text-slate-600 ") + "hover:text-slate-800 px-3 py-2 text-md font-medium"}
             >
               {item.name}
             </Link>
