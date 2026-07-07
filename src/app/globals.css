@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400..700;1,400..700&display=swap');
 @import "tailwindcss";
 
 :root {
@@ -8,6 +9,7 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --font-gelasio: "Gelasio", sans-serif; 
 }
 
 @media (prefers-color-scheme: dark) {
