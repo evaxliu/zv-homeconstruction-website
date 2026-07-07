@@ -10,27 +10,38 @@ const navigation = [
   { name: "About Us", href: "#about", current: false },
 ]
 
+const language = [
+  { language: "EN", href: "/", current: true },
+  { language: "VI", href: "/", current: false }
+]
+
 export default function NavBar() {
   const [mobileNav, setShowMobileNav] = useState(false);
-  const [current, setCurrent] = useState("Home")
+  const [currentTab, setCurrentTab] = useState("Home")
+  const [currentLang, setCurrentLang] = useState("EN")
 
   const handleShowHide = () => {
     setShowMobileNav(!mobileNav);
   };
 
-  const handleActive = (name: string) => {
-    setCurrent(name);
+  const handleActiveTab = (name: string) => {
+    setCurrentTab(name);
+  };
+
+  const handleActiveLang = (language: string) => {
+    setCurrentLang(language);
   };
   
   return (
     <header className="bg-white sticky top-0 z-50">
-      <nav aria-label="Main navigation" className="mx-auto max-w-7xl flex items-center justify-between py-6 px-6">
-        <div className="flex text-slate-600">
+      <nav aria-label="Main navigation" className="mx-auto max-w-7xl flex items-center justify-between py-6 px-6 text-slate-600">
+        <div className="flex">
           <Link 
             href="/" 
-            className="font-serif text-xl tracking-tight select-none text-slate-600"
+            onClick={() => handleActiveTab("Home")}
+            className="font-serif text-2xl tracking-tight select-none text-slate-600"
           >
-            Z &amp; V
+            Z &amp; V | Home Construction LLC
           </Link>
         </div>
         <div className="hidden md:flex items-center gap-3 select-none">
@@ -38,8 +49,8 @@ export default function NavBar() {
             <Link 
               key={item.name} 
               href={item.href} 
-              onClick={() => handleActive(item.name)} 
-              className={(current == item.name ? "text-slate-800 underline " : "text-slate-600 ") + "hover:text-slate-800 px-3 py-2 text-md font-medium"}
+              onClick={() => handleActiveTab(item.name)} 
+              className={(currentTab == item.name ? "text-slate-800 underline " : "text-slate-600 ") + "hover:text-slate-800 px-3 py-2 text-md font-medium"}
             >
               {item.name}
             </Link>
@@ -51,6 +62,18 @@ export default function NavBar() {
           >
             GET A QUOTE
           </Link>
+          <div className="flex text-sm border">
+            {language.map((item) => (
+              <Link 
+                key={item.language} 
+                href={item.href} 
+                onClick={() => handleActiveLang(item.language)} 
+                className={(currentLang == item.language ? "text-slate-800 bg-slate-400 " : "text-slate-600 ") + "hover:text-slate-800 font-medium px-3 py-2"}
+              >
+                {item.language}
+              </Link>
+            ))}
+          </div>
         </div>
       </nav>
     </header>

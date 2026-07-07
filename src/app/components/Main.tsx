@@ -13,13 +13,16 @@ export default function Main() {
       <div className="mx-auto max-w-7xl px-6 py-10 md:py-0 min-h-[calc(100svh-80px)] flex flex-col md:gap-10 md:flex-row md:items-center">
         <article className="flex flex-col text-center items-center gap-5 p-15 md:flex-1 md:justify-center">
           <p className="">
-            Residential &amp; small commercial renovation across the Greater Seattle Area.
+            Residential &amp; Small Commercial · Greater Seattle Area
           </p>
           <div>
             <h1 className="text-5xl font-[gelasio]">
               Your Satisfaction is Our Goal
             </h1>
           </div>
+          <p className="">
+            Renovation and remodeling for homeowners and businesses across Bothell and the Greater Seattle Area — done right the first time.
+          </p>
           <div className="flex md:p-5">
             <Link 
               key={"View our quote"} 
