@@ -10,10 +10,23 @@ export default function Card ({
   imageSrc: string;
 }) {
   return(
-    <section className="p-10">
-      <Image src={imageSrc} alt={""} height={300} width={300}/>
-      <h1 className="text-3xl font-[gelasio]">{title}</h1>
-      <p>{description}</p>
-    </section>
+    <article className="w-85 border rounded-lg bg-slate-600 border-neutral-200 font-[gelasio]">
+      <div className="relative aspect-square w-full">
+        <Image
+          src={imageSrc}
+          alt={title}
+          fill
+          className="rounded-lg object-cover size-full transition-all duration-300 hover:scale-90"
+        />
+      </div>
+      <section className="px-4 py-6 flex flex-col gap-3">
+        <h2 className="text-2xl text-white">
+          {title}
+        </h2>
+        <p className="flex flex-col gap-6 text-base text-white font-medium">
+          {description}
+        </p>
+      </section>
+    </article>
   )
 }
