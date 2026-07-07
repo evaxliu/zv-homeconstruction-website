@@ -1,3 +1,4 @@
+// Source: https://youtu.be/XJSOgV4VELk?si=YxR0rIkIvMAE4MdK
 "use client"
 import { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
