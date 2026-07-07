@@ -3,8 +3,29 @@ import "./globals.css";
 import NavBar from "./components/NavBar";
 
 export const metadata: Metadata = {
-  title: "Z&V Homeconstruction LLC | Bothell WA | General Contractor",
-  description: "Z&V Homeconstruction is a general construction company 18949 108th Ave NE Bothell, WA 98011 (945) 304-9455. HOURS: Mon - Fri: 7am - 5pm Saturday: Closed",
+  // metadataBase: new URL("https://your-domain.com"),
+
+  title: "Z&V Homeconstruction LLC | General Contractor in Bothell, WA",
+  description:
+    "Z&V Homeconstruction LLC provides residential and small commercial renovation services in Bothell, WA and the Greater Seattle Area.",
+
+  openGraph: {
+    title: "Z&V Homeconstruction LLC | General Contractor in Bothell, WA",
+    description:
+      "Residential and small commercial renovation services in Bothell, WA and the Greater Seattle Area.",
+    // url: "https://your-domain.com",
+    siteName: "Z&V Homeconstruction LLC",
+    images: [
+      {
+        url: "/zvicon.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Z&V Homeconstruction LLC",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
