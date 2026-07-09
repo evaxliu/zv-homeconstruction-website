@@ -17,10 +17,6 @@ export default function Services() {
           <li>
             Insured
           </li>
-          -
-          <li>
-            Since 2021
-          </li>
         </ul>
         <div>
           <h1 className="text-5xl">

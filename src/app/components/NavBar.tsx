@@ -41,7 +41,14 @@ export default function NavBar() {
             onClick={() => handleActiveTab("Home")}
             className="font-serif text-2xl tracking-tight select-none text-slate-600"
           >
-            Z &amp; V | Home Construction LLC
+            Z &amp; V
+          </Link>
+          <Link
+            href="/" 
+            onClick={() => handleActiveTab("Home")}
+            className="hidden lg:flex font-serif text-2xl tracking-tight select-none text-slate-600"
+          >
+           | Home Construction LLC
           </Link>
         </div>
         <div className="hidden md:flex items-center gap-3 select-none">
