@@ -6,8 +6,13 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://zv-homeconstruction-website.vercel.app/"),
 
   title: "Z&V Homeconstruction LLC | General Contractor in Bothell, WA",
-  description:
-    "Z&V Homeconstruction LLC provides residential and small commercial renovation services in Bothell, WA and the Greater Seattle Area.",
+  description: "Z&V Homeconstruction LLC provides residential and small commercial renovation services in Bothell, WA and the Greater Seattle Area.",
+  icons: {
+    icon: [
+      { url: "/zvicon.jpg" },
+      { url: "/zvicon.jpg", sizes: "48x48", type: "image/jpg" },
+    ],
+  },
 
   openGraph: {
     title: "Z&V Homeconstruction LLC | General Contractor in Bothell, WA",
