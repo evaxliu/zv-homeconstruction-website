@@ -1,4 +1,4 @@
-import Card from "./Card";
+import Card from "../components/Card"
 
 export default function Services() {
   return(
@@ -18,9 +18,9 @@ export default function Services() {
           </li>
         </ul>
         <div>
-          <h1 className="text-5xl">
+          <h2 className="text-5xl">
             What We Build
-          </h1>
+          </h2>
         </div>
         <div className="flex flex-col justify-center md:flex-row md:flex-wrap gap-10">
           <Card title="Residential" description="Kitchens, bathrooms, flooring & whole-home remodels." imageSrc={"/house1.avif"} />

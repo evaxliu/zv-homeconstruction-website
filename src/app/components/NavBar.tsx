@@ -1,13 +1,12 @@
 "use client"
 import Link from "next/link";
-// import { Bars3Icon, ChevronDownIcon, XMarkIcon } from "@heroicons/react/24/outline"
 import { useState } from "react";
 
 const navigation = [
   { name: "Home", href: "/", current: true },
-  { name: "Services", href: "#services", current: false },
-  { name: "Our Work", href: "#work", current: false },
-  { name: "About Us", href: "#about", current: false },
+  { name: "Services", href: "/services", current: false },
+  { name: "Our Work", href: "/our-work", current: false },
+  { name: "About Us", href: "/about-us", current: false },
 ]
 
 const language = [
@@ -64,7 +63,7 @@ export default function NavBar() {
           ))}
           <Link 
             key={"Get a Quote"} 
-            href={"/"} 
+            href={"/contact-us"} 
             className={"text-slate-600 hover:text-white hover:bg-slate-800 border px-3 py-2 text-sm font-medium"}
           >
             GET A QUOTE
