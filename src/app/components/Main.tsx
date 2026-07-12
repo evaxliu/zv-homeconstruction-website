@@ -16,20 +16,20 @@ export default function Main() {
             Residential &amp; Small Commercial · Greater Seattle Area
           </p>
           <div>
-            <h1 className="text-5xl font-[gelasio]">
+            <p className="text-5xl font-[gelasio]">
               Your Satisfaction is Our Goal
-            </h1>
+            </p>
           </div>
-          <p className="">
+          <h2 className="">
             Renovation and remodeling for homeowners and businesses across Bothell and the Greater Seattle Area — done right the first time.
-          </p>
+          </h2>
           <div className="flex md:p-5">
             <Link 
-              key={"View our quote"} 
+              key={"Get a Quote"} 
               href={"/"} 
-              className={"text-black bg-white hover:text-slate-400 border px-4 py-2 text-sm font-sm"}
+              className={"text-black border bg-white hover:text-white hover:bg-slate-800 px-4 py-2 text-sm font-medium"}
             >
-              VIEW OUR WORK
+              GET A QUOTE
             </Link>
           </div>
         </article>
