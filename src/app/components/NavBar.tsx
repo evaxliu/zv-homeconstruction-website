@@ -3,15 +3,15 @@ import Link from "next/link";
 import { useState } from "react";
 
 const navigation = [
-  { name: "Home", href: "/", current: true },
-  { name: "Services", href: "/services", current: false },
-  { name: "Our Work", href: "/our-work", current: false },
-  { name: "About Us", href: "/about-us", current: false },
+  { name: "Home", vi_name: "Trang chủ", href: "/", current: true },
+  { name: "Services", vi_name: "Dịch vụ", href: "/services", current: false },
+  { name: "Our Work", vi_name: "Công việc của chúng tôi", href: "/our-work", current: false },
+  { name: "About Us", vi_name: "Về chúng tôi", href: "/about-us", current: false },
 ]
 
 const language = [
   { language: "EN", href: "/", current: true },
-  { language: "VI", href: "/", current: false }
+  { language: "VN", href: "/", current: false }
 ]
 
 export default function NavBar() {
@@ -51,22 +51,35 @@ export default function NavBar() {
           </Link>
         </div>
         <div className="hidden md:flex items-center gap-3 select-none">
-          {navigation.map((item) => (
-            <Link 
-              key={item.name} 
-              href={item.href} 
-              onClick={() => handleActiveTab(item.name)} 
-              className={(currentTab == item.name ? "text-slate-800 underline " : "text-slate-600 ") + "hover:text-slate-800 px-3 py-2 text-md font-medium"}
-            >
-              {item.name}
-            </Link>
-          ))}
+          {currentLang == "EN" ?
+            navigation.map((item) => (
+              <Link 
+                key={item.name} 
+                href={item.href} 
+                onClick={() => handleActiveTab(item.name)} 
+                className={(currentTab == item.name ? "text-slate-800 underline " : "text-slate-600 ") + "hover:text-slate-800 px-3 py-2 text-md font-medium"}
+              >
+                {item.name}
+              </Link>
+            ))
+            :
+            navigation.map((item) => (
+              <Link 
+                key={item.vi_name} 
+                href={item.href} 
+                onClick={() => handleActiveTab(item.name)} 
+                className={(currentTab == item.name ? "text-slate-800 underline " : "text-slate-600 ") + "hover:text-slate-800 px-3 py-2 text-md font-medium"}
+              >
+                {item.vi_name}
+              </Link>
+            ))
+          }
           <Link 
-            key={"Get a Quote"} 
+            key={currentLang == "EN" ? "Get a Quote" : "Tiếp xúc"}
             href={"/contact-us"} 
             className={"text-slate-600 hover:text-white hover:bg-slate-800 border px-3 py-2 text-sm font-medium"}
           >
-            GET A QUOTE
+            {currentLang == "EN" ? "Get a Quote" : "Tiếp xúc"}
           </Link>
           <div className="flex text-sm border">
             {language.map((item) => (
