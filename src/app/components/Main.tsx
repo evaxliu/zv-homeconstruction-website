@@ -35,7 +35,7 @@ export default function Main() {
         </article>
         <aside className="flex flex-col items-center jusitfy-center md:justify-end md:flex-1">
           <div className="w-full max-w-sm sm:max-w-md lg:max-w-lg">
-            <Carousel slides={slides} autoSlide={true}/>
+            <Carousel slides={slides} autoSlide={false}/>
           </div>
         </aside>
       </div>
