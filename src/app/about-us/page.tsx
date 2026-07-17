@@ -1,6 +1,6 @@
 export default function AboutUs() {
   return(
-    <section className="flex flex-col md:flex-row bg-white text-black w-full">
+    <section className="flex flex-col md:flex-row bg-slate-200 text-black w-full">
       <article className="flex w-full flex-col text-center items-center gap-5 py-10 md:flex-1 md:justify-center mx-auto max-w-7xl px-6 min-h-[calc(100svh-80px)] md:gap-10 md:items-center font-[gelasio]">
         <div>
           <h2 className="text-5xl">
@@ -40,5 +40,5 @@ export default function AboutUs() {
         </div>
       </article>
     </section>
-  )
+  );
 }
