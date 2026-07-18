@@ -1,15 +1,15 @@
 import Image from "next/image";
 
 const services = [
-  {title: "Renovation", icon: "/services-icons/004-construction.png"},
-  {title: "Remodeling", icon: "/services-icons/003-home.png"},
-  {title: "Flooring", icon: "/services-icons/006-tile.png"},
-  {title: "Drywall", icon: "/services-icons/005-wall.png"},
-  {title: "Carpentry", icon: "/services-icons/009-hand-saw.png"},
-  {title: "Handyman", icon: "/services-icons/008-repair.png"},
-  {title: "Restaurants", icon: "/services-icons/010-restaurant.png"},
-  {title: "Salons", icon: "/services-icons/007-hair-salon.png"},
-  {title: "Bathrooms", icon: "/services-icons/011-sink.png"}
+  {title: "Renovation", icon: "/services/004-construction.png"},
+  {title: "Remodeling", icon: "/services/003-home.png"},
+  {title: "Flooring", icon: "/services/006-tile.png"},
+  {title: "Drywall", icon: "/services/005-wall.png"},
+  {title: "Carpentry", icon: "/services/009-hand-saw.png"},
+  {title: "Handyman", icon: "/services/008-repair.png"},
+  {title: "Restaurants", icon: "/services/010-restaurant.png"},
+  {title: "Salons", icon: "/services/007-hair-salon.png"},
+  {title: "Bathrooms", icon: "/services/011-sink.png"}
 ]
 
 export default function Services() {
@@ -30,8 +30,9 @@ export default function Services() {
               <Image
                 src={service.icon}
                 alt={service.title}
-                width={64}
-                height={64}
+                width={96}
+                height={96}
+                className="h-24 w-24 md:h-16 md:w-16"
               />
               <h3 className="font-semibold">{service.title}</h3>
             </div>
