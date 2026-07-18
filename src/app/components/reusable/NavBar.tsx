@@ -26,7 +26,7 @@ export default function NavBar() {
           <Link 
             key={pathname === '/' ? "Get a Quote" : "Tiếp xúc"}
             href={"/contact-us"} 
-            className={"text-[#202A36] hover:bg-[#4E8CA2] border border-[#4E8CA2] px-3 py-2 text-sm font-semibold rounded-xl"}
+            className={"text-[#202A36] hover:bg-[#4E8CA2] hover:text-white border border-[#4E8CA2] px-3 py-2 text-sm font-semibold rounded-xl"}
           >
             {pathname === '/' ? "Get a Quote" : "Tiếp xúc"}
           </Link>
