@@ -26,7 +26,7 @@ export default function Services() {
         </div>
         <div className="grid grid-cols-2 md:grid-cols-3">
           {services.map((service) => (
-            <div key={service.title} className="my-15 md:m-15 flex flex-col">
+            <div key={service.title} className="my-15 md:m-15 flex flex-col gap-5">
               <Image
                 src={service.icon}
                 alt={service.title}
