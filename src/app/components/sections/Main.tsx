@@ -9,16 +9,14 @@ export default function Main() {
             Experienced & Reliable Builders, proudly serving since 2021 with dedication and quality craftsmanship
           </h1>
         </div>
-        <div className="flex flex-col gap-2">
-          <div className="flex justify-between items-end">
-            <p className="max-w-md text-7xl font-bold text-[#202A36]">
-              Your satisfaction is our goal
-            </p>
-            <div 
-              className="flex items-center gap-2 text-[#202A36] px-3 py-2 text-sm font-semibold rounded-xl animate-bounce select-none"
-            >
-              Scroll for More <ArrowDown />
-            </div>
+        <div className="flex flex-col md:flex-row md:justify-between md:items-end">
+          <p className="max-w-md text-5xl md:text-7xl font-bold text-[#202A36]">
+            Your satisfaction is our goal
+          </p>
+          <div 
+            className="flex items-center gap-2 text-[#202A36] text-sm font-semibold rounded-xl animate-bounce select-none"
+          >
+            Scroll for More <ArrowDown />
           </div>
         </div>
       </div>

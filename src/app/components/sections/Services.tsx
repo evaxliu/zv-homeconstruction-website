@@ -24,9 +24,9 @@ export default function Services() {
             We Provide a Variety of Solutions
           </h2>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-3">
+        <div className="grid grid-cols-2 md:grid-cols-3">
           {services.map((service) => (
-            <div key={service.title} className="m-15 flex flex-col gap-3">
+            <div key={service.title} className="my-15 md:m-15 flex flex-col">
               <Image
                 src={service.icon}
                 alt={service.title}
