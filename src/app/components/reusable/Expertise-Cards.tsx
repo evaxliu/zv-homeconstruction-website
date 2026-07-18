@@ -18,11 +18,11 @@ export default function ExpertiseCards({idx, title, description, image, flip} : 
               <p className="max-w-md text-lg font-bold text-[#4E8CA2]">
                 {idx}
               </p>
-              <h3 className="max-w-md text-lg font-bold">
+              <h3 className="max-w-md text-xl font-bold">
                 {title}
               </h3>
             </div>
-            <p className="max-w-xs text-md md:text-lg font-semibold">
+            <p className="md:max-w-xs text-md font-semibold">
               {description}
             </p>
           </div>
@@ -56,7 +56,7 @@ export default function ExpertiseCards({idx, title, description, image, flip} : 
                 {title}
               </h3>
             </div>
-            <p className="max-w-xs text-md md:text-lg font-semibold">
+            <p className="md:max-w-xs text-md font-semibold">
               {description}
             </p>
           </div>
