@@ -36,12 +36,13 @@ export default function Expertise() {
           <p className="max-w-md text-3xl font-bold">
             Our Focus Areas
           </p>
-          <div className="flex flex-col lg:flex-row items-start lg:items-end my-10 gap-5 object-contain pb-15 md:pb-20">
+          <div className="flex flex-col-reverse lg:flex-row lg:items-end my-5 gap-5 pb-5 md:pb-20">
             <Image
               src={"/projects/outside1.webp"}
               alt={""}
-              width={750}
-              height={750}
+              width={800}
+              height={800}
+              className="h-auto lg:max-h-[calc(100svh-12rem)] w-auto max-w-full object-contain"
             />
             <h2 className="font-semibold max-w-xs text-md md:text-lg">
               We build and renovate homes, small businesses, and outdoor spaces, from kitchens and bathrooms to decks, fences, painting, and repairs.

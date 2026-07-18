@@ -10,10 +10,10 @@ type expertiseProps = {
 
 export default function ExpertiseCards({idx, title, description, image, flip} : expertiseProps) {
   return(
-    <section className="w-full bg-slate-200 text-[#202A36] my-10">
+    <section className="w-full bg-slate-200 text-[#202A36] my-5 lg:my-10">
       {flip ?
-        <div className="flex flex-col md:flex-row md:justify-between">
-          <div className="flex flex-col justify-between gap-3 md:gap-0 my-5 md:my-0">
+        <div className="flex flex-col lg:flex-row lg:justify-between">
+          <div className="flex flex-col justify-between gap-3 lg:gap-0 my-5 lg:my-0">
             <div>
               <p className="max-w-md text-lg font-bold text-[#4E8CA2]">
                 {idx}
@@ -22,7 +22,7 @@ export default function ExpertiseCards({idx, title, description, image, flip} : 
                 {title}
               </h3>
             </div>
-            <p className="md:max-w-xs text-md font-semibold">
+            <p className="max-w-2xl lg:max-w-xs text-md font-semibold">
               {description}
             </p>
           </div>
@@ -32,22 +32,22 @@ export default function ExpertiseCards({idx, title, description, image, flip} : 
               alt={""}
               width={800}
               height={800}
-              className="h-auto max-h-[calc(100svh-12rem)] w-auto max-w-full object-contain"
+              className="h-auto lg:max-h-[calc(100svh-12rem)] w-auto max-w-full object-contain"
             />
           </div>
         </div>
       :
-        <div className="flex flex-col-reverse md:flex-row md:gap-5">
+        <div className="flex flex-col-reverse lg:flex-row lg:gap-5">
           <div className="object-contain">
             <Image
               src={image}
               alt={""}
               width={800}
               height={800}
-              className="h-auto max-h-[calc(100svh-12rem)] w-auto max-w-full object-contain"
+              className="h-auto lg:max-h-[calc(100svh-12rem)] w-auto max-w-full"
             />
           </div>
-          <div className="flex flex-col justify-between gap-3 md:gap-0 my-5 md:my-0">
+          <div className="flex flex-col justify-between gap-3 lg:gap-0 my-5 lg:my-0">
             <div className="flex flex-col">
               <p className="max-w-md text-lg font-bold text-[#4E8CA2]">
                 {idx}
@@ -56,7 +56,7 @@ export default function ExpertiseCards({idx, title, description, image, flip} : 
                 {title}
               </h3>
             </div>
-            <p className="md:max-w-xs text-md font-semibold">
+            <p className="max-w-2xl lg:max-w-xs text-md font-semibold">
               {description}
             </p>
           </div>
