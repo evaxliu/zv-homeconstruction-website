@@ -20,9 +20,9 @@ export default function Card ({
         />
       </div>
       <section className="px-4 py-6 flex flex-col gap-3">
-        <h2 className="text-2xl text-white">
+        <h3 className="text-2xl text-white">
           {title}
-        </h2>
+        </h3>
         <p className="flex flex-col gap-6 text-base text-white font-medium">
           {description}
         </p>
