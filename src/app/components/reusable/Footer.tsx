@@ -12,8 +12,8 @@ export default function Footer() {
             <p className="font-semibold">Z <span className="text-[#202A36]">&amp;</span> V</p>
             <p className="text-[#202A36] tracking-tight select-none">Home Construction LLC</p>
           </div>
-          <a href="https://www.flaticon.com/free-icons/architect" title="architect icons">Architect icons created by Vectors Tank - Flaticon</a>
         </div>
+          <div>Icons made by <a href="https://www.flaticon.com/authors/magnific" title="Magnific">Magnific</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div><div>Icons made by <a href="https://www.flaticon.com/authors/vectors-tank" title="Vectors Tank">Vectors Tank</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div><div>Icons made by <a href="https://www.flaticon.com/authors/smashingstocks" title="smashingstocks">smashingstocks</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div><div>Icons made by <a href="https://www.flaticon.com/authors/umeicon" title="Umeicon">Umeicon</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div><div>Icons made by <a href="https://www.flaticon.com/authors/darwin-mulya" title="Darwin Mulya">Darwin Mulya</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
       </div>
     </footer>
   );
