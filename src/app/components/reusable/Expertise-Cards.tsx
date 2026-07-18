@@ -10,10 +10,10 @@ type expertiseProps = {
 
 export default function ExpertiseCards({idx, title, description, image, flip} : expertiseProps) {
   return(
-    <section className="w-full bg-slate-200 text-[#202A36] my-15">
+    <section className="w-full bg-slate-200 text-[#202A36] my-10 md:my-15">
       {flip ?
         <div className="flex flex-col md:flex-row md:justify-between">
-          <div className="flex flex-col justify-between">
+          <div className="flex flex-col justify-between gap-3 md:gap-0 my-5 md:my-0">
             <div>
               <p className="max-w-md text-lg font-bold text-[#4E8CA2]">
                 {idx}
@@ -22,7 +22,7 @@ export default function ExpertiseCards({idx, title, description, image, flip} : 
                 {title}
               </h3>
             </div>
-            <p className="max-w-xs text-lg font-semibold">
+            <p className="max-w-xs text-md md:text-lg font-semibold">
               {description}
             </p>
           </div>
@@ -47,8 +47,8 @@ export default function ExpertiseCards({idx, title, description, image, flip} : 
               className="h-auto max-h-[calc(100svh-12rem)] w-auto max-w-full object-contain"
             />
           </div>
-          <div className="flex flex-col justify-between">
-            <div>
+          <div className="flex flex-col justify-between gap-3 md:gap-0 my-5 md:my-0">
+            <div className="flex flex-col">
               <p className="max-w-md text-lg font-bold text-[#4E8CA2]">
                 {idx}
               </p>
@@ -56,7 +56,7 @@ export default function ExpertiseCards({idx, title, description, image, flip} : 
                 {title}
               </h3>
             </div>
-            <p className="max-w-xs text-lg font-semibold">
+            <p className="max-w-xs text-md md:text-lg font-semibold">
               {description}
             </p>
           </div>

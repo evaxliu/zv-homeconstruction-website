@@ -36,14 +36,14 @@ export default function Expertise() {
           <p className="max-w-md text-3xl font-bold">
             Our Focus Areas
           </p>
-          <div className="flex flex-col lg:flex-row items-start lg:items-end my-10 gap-5 object-contain pb-20">
+          <div className="flex flex-col lg:flex-row items-start lg:items-end my-10 gap-5 object-contain pb-15 md:pb-20">
             <Image
               src={"/projects/outside1.webp"}
               alt={""}
               width={750}
               height={750}
             />
-            <h2 className="font-semibold max-w-xs">
+            <h2 className="font-semibold max-w-xs text-md md:text-lg">
               Based in Bothell, serving the greater Seattle area since 2021. Licensed, bonded & insured in Washington State. English & Vietnamese.
             </h2>
           </div>
