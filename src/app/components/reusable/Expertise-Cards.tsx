@@ -10,7 +10,7 @@ type expertiseProps = {
 
 export default function ExpertiseCards({idx, title, description, image, flip} : expertiseProps) {
   return(
-    <section className="w-full bg-slate-200 text-[#202A36] my-10 md:my-15">
+    <section className="w-full bg-slate-200 text-[#202A36] my-10">
       {flip ?
         <div className="flex flex-col md:flex-row md:justify-between">
           <div className="flex flex-col justify-between gap-3 md:gap-0 my-5 md:my-0">

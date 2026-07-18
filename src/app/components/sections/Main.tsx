@@ -14,7 +14,7 @@ export default function Main() {
             Your satisfaction is our goal
           </p>
           <div 
-            className="flex items-center gap-2 text-[#202A36] text-sm font-semibold rounded-xl animate-bounce select-none"
+            className="hidden md:flex items-center gap-2 text-[#202A36] text-sm font-semibold rounded-xl animate-bounce select-none"
           >
             Scroll for More <ArrowDown />
           </div>

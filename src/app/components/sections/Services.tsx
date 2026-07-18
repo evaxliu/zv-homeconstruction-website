@@ -15,7 +15,7 @@ const services = [
 export default function Services() {
   return(
     <section className="w-full bg-slate-200 text-[#202A36]">
-      <div className="mx-auto max-w-7xl px-6 py-20 flex flex-col lg:flex-row justify-between">
+      <div className="mx-auto max-w-7xl px-6 py-10 flex flex-col lg:flex-row justify-between">
         <div className="flex flex-col justify-start">
           <p className="max-w-md text-lg font-bold text-[#4E8CA2]">
             Services
