@@ -25,7 +25,7 @@ export default function Projects() {
           </h2>
         </div>
 
-        <div className="overflow-x-auto flex gap-7 scroll-auto">
+        <div className="overflow-x-auto flex gap-7 scroll-auto overscroll-x-contain">
           {pictures.map((picture) => (
             <article key={picture.title} className="group my-10 shrink-0 overflow-hidden">
               <Image
