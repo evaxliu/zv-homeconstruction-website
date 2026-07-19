@@ -24,15 +24,15 @@ export default function Services() {
             We Provide a Variety of Solutions
           </h2>
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-3">
+        <div className="grid grid-cols-2 md:gap-px md:bg-[#202A36] md:grid-cols-3">
           {services.map((service) => (
-            <div key={service.title} className="my-15 md:m-15 flex flex-col gap-5">
+            <div key={service.title} className="flex flex-col gap-5 md:bg-slate-200 py-15 md:p-15">
               <Image
                 src={service.icon}
                 alt={service.title}
                 width={96}
                 height={96}
-                className="h-24 w-24 md:h-16 md:w-16"
+                className="h-24 w-24 md:h-20 md:w-20"
               />
               <h3 className="font-semibold">{service.title}</h3>
             </div>
