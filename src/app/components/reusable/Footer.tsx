@@ -7,10 +7,10 @@ export default function Footer() {
       <div className="mx-auto max-w-7xl py-6 px-6">
         <div className="flex flex-col lg:flex-row justify-between border-b">
           <div
-            className="flex flex-wrap w-full gap-3 text-4xl tracking-tight select-none text-[#4E8CA2] py-5"
+            className="flex flex-col w-full gap-3 text-4xl tracking-tight select-none text-[#4E8CA2] py-5"
           >
             <p className="font-semibold">Z <span className="text-[#202A36]">&amp;</span> V</p>
-            <p className="tracking-tight select-none">Home Construction LLC</p>
+            <p className="tracking-tight select-none text-[#202A36]">Home Construction LLC</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 py-5 font-semibold">
@@ -61,10 +61,10 @@ export default function Footer() {
           </div>
         </div>
         <div className="flex flex-col justify-between pt-5 gap-5">
-          <p>
+          <p className="font-semibold">
             © 2026 Z&V Home Construction LLC · Licensed, bonded & insured · Bothell, WA
           </p>
-          <p className="text-sm">
+          <p className="text-xs">
             Icons made by{" "}
             <a
               href="https://www.flaticon.com/authors/dimitry-miroliubov"
