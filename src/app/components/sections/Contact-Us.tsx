@@ -1,7 +1,7 @@
 "use client";
 
-import Script from 'next/script';
-import { FormEvent, useState } from 'react';
+import Script from "next/script";
+import { FormEvent, useState } from "react";
 
 declare global {
   interface Window {
@@ -70,35 +70,35 @@ export default function ContactUs() {
     <section className="w-full bg-slate-300 text-[#202A36]">
       <div className="mx-auto max-w-7xl px-6 py-20 flex flex-col lg:flex-row justify-between min-h-[calc(100svh-80px)]">
         <div className="flex flex-col items-start justify-center gap-10">
-          <div className='flex flex-col gap-3'>
+          <div className="flex flex-col gap-3">
             <p className="max-w-md text-lg font-bold text-[#4E8CA2]">
               Contact
             </p>
             <h3 className="max-w-md text-3xl font-bold">
               Start your project.
             </h3>
-            <p className='text-[#4E8CA2] text-md'>
+            <p className="text-[#4E8CA2] text-md">
               Free estimates. SMS available.
             </p>
           </div>
-          <div className='flex flex-col gap-3'>
-            <p className='text-[#4E8CA2] text-sm'>
+          <div className="flex flex-col gap-3">
+            <p className="text-[#4E8CA2] text-sm">
               CALL OR TEXT
             </p>
             {phones.map((contact) => 
-              <div key={contact.phone} className='flex gap-3'>
+              <div key={contact.phone} className="flex gap-3">
                 <p>
                   {contact.phone}
                 </p>
-                <p className='text-[#4E8CA2] text-sm'>
+                <p className="text-[#4E8CA2] text-sm">
                   {contact.lang}
                 </p>
               </div>
             )}
           </div>
           {businessInfo.map((info) => 
-            <div key={info.title} className='flex flex-col gap-3'>
-              <p className='text-[#4E8CA2] text-sm'>
+            <div key={info.title} className="flex flex-col gap-3">
+              <p className="text-[#4E8CA2] text-sm">
                 {info.title}
               </p>
               <p>
@@ -108,7 +108,7 @@ export default function ContactUs() {
           )}
         </div>
 
-        {/* <div className='w-full flex items-center justify-start bg-slate-200'>
+        {/* <div className="w-full flex items-center justify-start bg-slate-200">
           <iframe
             data-tally-src="https://tally.so/embed/Np9qNB?hideTitle=1&transparentBackground=1&dynamicHeight=1"
             loading="lazy"
