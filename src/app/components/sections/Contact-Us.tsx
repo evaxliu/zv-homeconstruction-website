@@ -1,15 +1,6 @@
 "use client";
 
-import Script from "next/script";
-import { FormEvent, useState } from "react";
-
-declare global {
-  interface Window {
-    Tally?: {
-      loadEmbeds: () => void;
-    };
-  }
-}
+import { type SubmitEvent, useState } from "react";
 
 const phones = [
   { phone: "(945) 304-9455", lang: "English"},
@@ -26,7 +17,7 @@ export default function ContactUs() {
   const [result, setResult] = useState("");
   const [isSuccess, setIsSuccess] = useState<boolean | null>(null);
 
-  const onSubmit = async (event: FormEvent<HTMLFormElement>) => {
+  const onSubmit = async (event: SubmitEvent<HTMLFormElement>) => {
     event.preventDefault();
 
     const form = event.currentTarget;
@@ -107,21 +98,6 @@ export default function ContactUs() {
             </div>
           )}
         </div>
-
-        {/* <div className="w-full flex items-center justify-start bg-slate-200">
-          <iframe
-            data-tally-src="https://tally.so/embed/Np9qNB?hideTitle=1&transparentBackground=1&dynamicHeight=1"
-            loading="lazy"
-            width="100%"
-            frameBorder="0"
-            title="Contact form"
-          />
-
-          <Script
-            src="https://tally.so/widgets/embed.js"
-            onLoad={() => window.Tally?.loadEmbeds()}
-          />
-        </div> */}
 
         <form onSubmit={onSubmit} className="flex flex-col gap-3 lg:min-w-lg justify-center">
           <div className="flex flex-col gap-3 mt-10">
