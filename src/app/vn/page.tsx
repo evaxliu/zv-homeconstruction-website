@@ -1,4 +1,5 @@
-import AboutUs from "../components/sections/AboutUs";
+import AboutUs from "../components/sections/About-Us";
+import ContactUs from "../components/sections/Contact-Us";
 import Expertise from "../components/sections/Expertise";
 import Main from "../components/sections/Main";
 import Projects from "../components/sections/Projects";
@@ -21,6 +22,9 @@ export default function Home() {
       </div>
       <div className="w-full">
         <Projects />
+      </div>
+      <div className="w-full">
+        <ContactUs />
       </div>
     </>
   );
