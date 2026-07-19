@@ -136,20 +136,7 @@ export default function ContactUs() {
                 name="message"
                 required
                 placeholder="Type your message here."
-                className="
-                  h-full w-full resize-none overflow-y-auto overscroll-y-contain
-                  bg-transparent p-3 outline-none
-
-                  [scrollbar-color:auto]
-
-                  [&::-webkit-scrollbar]:w-2
-                  [&::-webkit-scrollbar-track]:bg-transparent
-                  [&::-webkit-scrollbar-thumb]:rounded-full
-                  [&::-webkit-scrollbar-thumb]:bg-violet-300
-
-                  [&::-webkit-scrollbar-button]:hidden
-                  [&::-webkit-scrollbar-button]:size-0
-                "
+                className="h-full w-full resize-none overflow-y-auto overscroll-y-contain bg-transparent p-3 outline-none [scrollbar-color:auto] [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-track]:bg-transparent [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-thumb]:bg-violet-300 [&::-webkit-scrollbar-button]:hidden [&::-webkit-scrollbar-button]:size-0"
               />
             </div>
             <button type="submit" className="flex items-center justify-center h-12 border border-[#4E8CA2] hover:bg-[#4E8CA2] hover:text-white py-2.5 px-5 rounded-xl font-bold hover:cursor-pointer">Submit</button>
