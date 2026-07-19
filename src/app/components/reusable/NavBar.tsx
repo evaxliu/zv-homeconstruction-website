@@ -10,6 +10,12 @@ const language = [
 export default function NavBar() {
   const pathname = usePathname()
   
+  const scrollToSection = () => {
+    document
+      .getElementById("contact")
+      ?.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <header className="bg-slate-200 sticky top-0 z-50">
       <nav aria-label="Main navigation" className="mx-auto max-w-7xl flex items-center justify-between py-6 px-6">
@@ -23,13 +29,13 @@ export default function NavBar() {
           </Link>
         </div>
         <div className="flex items-center gap-3 select-none">
-          <Link 
+          <button 
             key={pathname === '/' ? "Get a Quote" : "Tiếp xúc"}
-            href={"/contact-us"} 
+            onClick={scrollToSection}
             className={"text-[#202A36] hover:bg-[#4E8CA2] hover:text-white border border-[#4E8CA2] px-3 py-2 text-sm font-semibold rounded-xl"}
           >
             {pathname === '/' ? "Get a Quote" : "Tiếp xúc"}
-          </Link>
+          </button>
           <div className="flex overflow-hidden rounded-xl border border-[#4E8CA2] text-sm">
             {language.map((item) => {
               const isVietnamese =
