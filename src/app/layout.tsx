@@ -42,7 +42,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className="h-full antialiased"
+      className="h-full"
     >
       <body className="min-h-full flex flex-col">
         <NavBar />
