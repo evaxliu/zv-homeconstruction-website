@@ -13,20 +13,20 @@ export default function AboutUs() {
       <div className="mx-auto max-w-7xl px-6 flex flex-col">
         <div className="flex flex-col justify-start pt-20">
           <div className="flex flex-col lg:flex-row lg:items-start my-5 gap-5 pb-5 md:pb-20">
-            <div>
-              <p className="max-w-md text-lg font-bold text-[#4E8CA2]">
+            <div className="flex flex-col gap-2">
+              <p className="max-w-md text-lg lg:text-xl font-bold text-[#4E8CA2]">
                 About Us
               </p>
-              <h2 className="md:max-w-3xl text-3xl font-semibold">
+              <h2 className="md:max-w-3xl text-2xl font-semibold">
                 Based in Bothell, WA, Z&V Home Construction provides remodeling, handyman, painting, fencing, decking, and commercial renovation services. We are licensed, bonded, and insured in Washington and committed to customer satisfaction.
               </h2>
             </div>
           <div className="flex flex-col items-center mt-10">
             <Image
-              src={"/construction-worker.jpg"}
+              src={"/construction-worker-t.png"}
               alt={""}
-              width={1200}
-              height={1200}
+              width={600}
+              height={600}
               className="h-auto w-auto max-w-full object-contain"
             />
           </div>
@@ -34,13 +34,15 @@ export default function AboutUs() {
         </div>
 
         <div className="flex flex-col justify-start pt-20 md:pt-0">
-          <p className="max-w-md text-lg lg:text-xl font-bold text-[#4E8CA2]">
-            By the Numbers
-          </p>
+          <div className="flex flex-col gap-3">
+            <p className="max-w-md text-lg lg:text-xl font-bold text-[#4E8CA2]">
+              By the Numbers
+            </p>
 
-          <h2 className="max-w-2xl text-xl lg:text-2xl font-semibold">
-            Proven Results, Solid Foundations
-          </h2>
+            <h2 className="max-w-2xl text-xl lg:text-2xl font-semibold">
+              Proven Results, Solid Foundations
+            </h2>
+          </div>
 
           <div className="my-10 grid grid-cols-1 lg:grid-cols-4 justify-between">
             {stats.map((stat) => (

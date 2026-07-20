@@ -14,19 +14,20 @@ const services = [
 
 export default function Services() {
   return(
-    <section className="w-full bg-slate-200 text-[#202A36]">
+    <section className="w-full text-[#202A36]">
       <div className="mx-auto max-w-7xl px-6 py-10 flex flex-col lg:flex-row justify-between">
-        <div className="flex flex-col justify-start">
-          <p className="max-w-md text-lg font-bold text-[#4E8CA2]">
+        <div className="flex flex-col justify-start gap-2">
+          <p className="max-w-md text-lg lg:text-xl font-bold text-[#4E8CA2]">
             Services
           </p>
           <h2 className="max-w-md text-3xl font-bold">
             We Provide a Variety of Solutions
           </h2>
         </div>
+        
         <div className="grid grid-cols-2 md:gap-px md:bg-[#202A36] md:grid-cols-3">
           {services.map((service) => (
-            <div key={service.title} className="flex flex-col gap-5 md:bg-slate-200 py-15 md:p-15">
+            <div key={service.title} className="flex flex-col gap-5 md:bg-[#E5ECF2] py-15 md:p-15">
               <Image
                 src={service.icon}
                 alt={service.title}

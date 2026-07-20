@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Footer() {
 
   return (
-    <footer className="bg-slate-200 sticky top-0 z-50 text-[#202A36]">
+    <footer className="bg-[#E5ECF2] sticky top-0 z-50 text-[#202A36]">
       <div className="mx-auto max-w-7xl py-6 px-6">
         <div className="flex flex-col lg:flex-row justify-between border-b">
           <div
@@ -62,7 +62,7 @@ export default function Footer() {
         </div>
         <div className="flex flex-col justify-between pt-5 gap-5">
           <p className="font-semibold">
-            © 2026 Z&V Home Construction LLC · Licensed, bonded & insured · Bothell, WA
+            © 2026 Z&V Home Construction LLC · Licensed, Bonded & Insured · Bothell, WA
           </p>
           <p className="text-xs">
             Icons made by{" "}

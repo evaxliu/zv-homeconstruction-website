@@ -14,10 +14,10 @@ const pictures = [
 
 export default function Projects() {
   return(
-    <section className="w-full bg-slate-200 text-[#202A36]">
+    <section className="w-full text-[#202A36]">
       <div className="mx-auto max-w-7xl px-6 py-10 flex flex-col">
-        <div className="flex flex-col justify-start">
-          <p className="max-w-md text-lg font-bold text-[#4E8CA2]">
+        <div className="flex flex-col justify-start gap-2">
+          <p className="max-w-md text-lg lg:text-xl font-bold text-[#4E8CA2]">
             Our Projects
           </p>
           <h2 className="max-w-md text-3xl font-bold">

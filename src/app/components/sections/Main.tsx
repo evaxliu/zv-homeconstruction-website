@@ -2,7 +2,7 @@ import { ArrowDown } from 'lucide-react';
 
 export default function Main() {
   return(
-    <section className="w-full bg-slate-200">
+    <section className="w-full">
       <div className="mx-auto max-w-7xl px-6 py-10 min-h-[calc(100svh-80px)] flex flex-col justify-evenly">
         <div className="flex justify-end">
           <h1 className="max-w-lg text-right text-2xl font-bold text-[#202A36]">

@@ -7,7 +7,7 @@ import Services from "./components/sections/Services";
 
 export default function Home() {
   return (
-    <>
+    <div className="bg-[#E5ECF2]">
       <div className="w-full">
         <Main />
       </div>
@@ -26,6 +26,6 @@ export default function Home() {
       <div className="w-full">
         <ContactUs />
       </div>
-    </>
+    </div>
   );
 }

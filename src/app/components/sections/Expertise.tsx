@@ -27,15 +27,17 @@ const expertise_types = [
 
 export default function Expertise() {
   return(
-    <section className="w-full bg-slate-200 text-[#202A36]">
+    <section className="w-full text-[#202A36]">
       <div className="mx-auto max-w-7xl px-6 py-10 flex flex-col">
         <div className="flex flex-col justify-start">
-          <p className="max-w-md text-lg font-bold text-[#4E8CA2]">
-            Expertise
-          </p>
-          <p className="max-w-md text-3xl font-bold">
-            Our Focus Areas
-          </p>
+          <div className="flex flex-col gap-2">
+            <p className="max-w-md text-lg lg:text-xl font-bold text-[#4E8CA2]">
+              Expertise
+            </p>
+            <p className="max-w-md text-3xl font-bold">
+              Our Focus Areas
+            </p>
+          </div>
           <div className="flex flex-col-reverse lg:flex-row lg:items-end my-5 gap-5 pb-5 md:pb-20">
             <Image
               src={"/projects/outside1.webp"}
@@ -44,7 +46,7 @@ export default function Expertise() {
               height={800}
               className="h-auto lg:max-h-[calc(100svh-12rem)] w-auto max-w-full object-contain"
             />
-            <h2 className="font-semibold max-w-xs text-md md:text-lg">
+            <h2 className="max-w-2xl lg:max-w-xs text-md font-semibold">
               We build and renovate homes, small businesses, and outdoor spaces, from kitchens and bathrooms to decks, fences, painting, and repairs.
             </h2>
           </div>
