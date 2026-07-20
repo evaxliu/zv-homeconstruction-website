@@ -58,22 +58,22 @@ export default function ContactUs() {
   };
 
   return(
-    <section className="w-full bg-slate-300 text-[#202A36]" id="contact">
+    <section className="w-full text-[#202A36]" id="contact">
       <div className="mx-auto max-w-7xl px-6 py-20 flex flex-col lg:flex-row justify-between min-h-[calc(100svh-80px)]">
         <div className="flex flex-col items-start justify-center gap-10">
           <div className="flex flex-col gap-3">
-            <p className="max-w-md text-lg font-bold text-[#4E8CA2]">
+            <p className="max-w-md text-xl font-medium text-[#4E8CA2]">
               Contact
             </p>
-            <h3 className="max-w-md text-3xl font-bold">
+            <h3 className="max-w-md text-4xl font-medium">
               Start your project.
             </h3>
-            <p className="text-[#4E8CA2] text-md">
+            <p className="text-[#4E8CA2]">
               Free estimates. SMS available.
             </p>
           </div>
           <div className="flex flex-col gap-3">
-            <p className="text-[#4E8CA2] text-sm">
+            <p className="text-[#4E8CA2]">
               CALL OR TEXT
             </p>
             {phones.map((contact) => 
@@ -81,7 +81,7 @@ export default function ContactUs() {
                 <p>
                   {contact.phone}
                 </p>
-                <p className="text-[#4E8CA2] text-sm">
+                <p className="text-[#4E8CA2]">
                   {contact.lang}
                 </p>
               </div>
@@ -89,7 +89,7 @@ export default function ContactUs() {
           </div>
           {businessInfo.map((info) => 
             <div key={info.title} className="flex flex-col gap-3">
-              <p className="text-[#4E8CA2] text-sm">
+              <p className="text-[#4E8CA2]">
                 {info.title}
               </p>
               <p>
@@ -115,7 +115,7 @@ export default function ContactUs() {
                 className="h-full w-full resize-none overflow-y-auto overscroll-y-contain bg-transparent p-3 outline-none [scrollbar-color:auto] [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-track]:bg-transparent [&::-webkit-scrollbar-thumb]:rounded-full [&::-webkit-scrollbar-thumb]:bg-violet-300 [&::-webkit-scrollbar-button]:hidden [&::-webkit-scrollbar-button]:size-0"
               />
             </div>
-            <button type="submit" className="flex items-center justify-center h-12 border border-[#4E8CA2] hover:bg-[#4E8CA2] hover:text-white py-2.5 px-5 rounded-xl font-bold hover:cursor-pointer">Submit</button>
+            <button type="submit" className="flex items-center justify-center h-12 border border-[#4E8CA2] hover:bg-[#4E8CA2] hover:text-white py-2.5 px-5 rounded-xl hover:cursor-pointer text-lg">Submit</button>
             <p
               className={`
                 w-0 min-w-full whitespace-normal wrap-anywhere text-left text-sm

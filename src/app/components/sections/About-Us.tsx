@@ -3,21 +3,21 @@ import Image from "next/image";
 const stats = [
   {title: "Experience", desc: "Year of Establishment", num: "2021", icon: "/about/experience.png"},
   {title: "Scale", desc: "Completed Projects", num: "40+", icon: "/about/scale.png"},
-  {title: "Bond", desc: "Nationwide Mutual Insurance", num: "$30k", icon: "/about/bond.png"},
+  {title: "Bond", desc: "Nationwide Insurance", num: "$30k", icon: "/about/bond.png"},
   {title: "Insurance", desc: "Third Coast Insurance", num: "$1M", icon: "/about/insurance.png"},
 ]
 
 export default function AboutUs() {
   return(
-    <section className="w-full bg-slate-300 text-[#202A36]">
+    <section className="w-full text-[#202A36]">
       <div className="mx-auto max-w-7xl px-6 flex flex-col">
         <div className="flex flex-col justify-start pt-20">
           <div className="flex flex-col lg:flex-row lg:items-start my-5 gap-5 pb-5 md:pb-20">
             <div className="flex flex-col gap-2">
-              <p className="max-w-md text-lg lg:text-xl font-bold text-[#4E8CA2]">
+              <p className="max-w-md text-xl font-medium text-[#4E8CA2]">
                 About Us
               </p>
-              <h2 className="md:max-w-3xl text-2xl font-semibold">
+              <h2 className="md:max-w-3xl text-3xl font-medium">
                 Based in Bothell, WA, Z&V Home Construction provides remodeling, handyman, painting, fencing, decking, and commercial renovation services. We are licensed, bonded, and insured in Washington and committed to customer satisfaction.
               </h2>
             </div>
@@ -35,11 +35,11 @@ export default function AboutUs() {
 
         <div className="flex flex-col justify-start pt-20 md:pt-0">
           <div className="flex flex-col gap-3">
-            <p className="max-w-md text-lg lg:text-xl font-bold text-[#4E8CA2]">
+            <p className="max-w-md text-xl font-medium text-[#4E8CA2]">
               By the Numbers
             </p>
 
-            <h2 className="max-w-2xl text-xl lg:text-2xl font-semibold">
+            <h2 className="max-w-2xl text-4xl font-medium">
               Proven Results, Solid Foundations
             </h2>
           </div>
@@ -57,17 +57,17 @@ export default function AboutUs() {
                 </div>
 
                 <div className="flex flex-col border-b lg:px-6 pb-3">
-                  <h3 className="mt-3 text-lg font-semibold">
+                  <h3 className="mt-3 text-lg">
                     {stat.title}
                   </h3>
                 </div>
 
-                <div className="flex flex-1 flex-col justify-between lg:px-6 py-7 lg:py-14">
-                  <p className="text-5xl font-bold md:text-6xl">
+                <div className="flex flex-1 flex-col justify-between gap-5 lg:px-6 py-7 lg:py-14">
+                  <p className="text-5xl font-semibold md:text-6xl">
                     {stat.num}
                   </p>
                   
-                  <p className="max-w-56 text-2xl font-semibold leading-tight">
+                  <p className="max-w-60 text-3xl leading-tight">
                     {stat.desc}
                   </p>
                 </div>

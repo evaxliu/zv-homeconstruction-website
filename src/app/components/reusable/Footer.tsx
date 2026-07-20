@@ -13,7 +13,7 @@ export default function Footer() {
             <p className="tracking-tight select-none text-[#202A36]">Home Construction LLC</p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-10 py-5 font-semibold">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-10 py-5 font-medium">
             <div>
               <p className="text-[#4E8CA2]">
                 Business Address
@@ -61,10 +61,10 @@ export default function Footer() {
           </div>
         </div>
         <div className="flex flex-col justify-between pt-5 gap-5">
-          <p className="font-semibold">
+          <p className="font-medium">
             © 2026 Z&V Home Construction LLC · Licensed, Bonded & Insured · Bothell, WA
           </p>
-          <p className="text-xs">
+          <p className="text-xs text-gray-500">
             Icons made by{" "}
             <a
               href="https://www.flaticon.com/authors/dimitry-miroliubov"

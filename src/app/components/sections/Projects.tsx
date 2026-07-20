@@ -17,10 +17,11 @@ export default function Projects() {
     <section className="w-full text-[#202A36]">
       <div className="mx-auto max-w-7xl px-6 py-10 flex flex-col">
         <div className="flex flex-col justify-start gap-2">
-          <p className="max-w-md text-lg lg:text-xl font-bold text-[#4E8CA2]">
+          <p className="text-xl font-medium text-[#4E8CA2]">
             Our Projects
           </p>
-          <h2 className="max-w-md text-3xl font-bold">
+
+          <h2 className="max-w-xs text-4xl font-medium leading-tight text-[#202A36]">
             Excellence in Every Building
           </h2>
         </div>
@@ -33,7 +34,7 @@ export default function Projects() {
                 alt={picture.title}
                 width={1000}
                 height={1000}
-                className="h-[50vh] md:h-[70vh] w-auto max-w-none object-contain transition-transform duration-1000 ease-out group-hover:scale-110"
+                className="h-[50vh] md:h-[65vh] w-auto max-w-none object-contain transition-transform duration-1000 ease-out group-hover:scale-110"
               />
             </article>
           ))}

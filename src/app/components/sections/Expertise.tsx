@@ -5,7 +5,7 @@ const expertise_types = [
   {
     idx: 1,
     title: "Residential",
-    description: "From kitchen and bathroom renovations to flooring upgrades and full-home remodels, we help transform outdated spaces into homes that feel more comfortable, functional, and suited to your needs. Whether you are updating one room or planning a larger renovation, we provide dependable workmanship and attention to detail throughout the project.",
+    description: "From kitchen and bathroom renovations to flooring upgrades and full-home remodels, we transform outdated spaces into functional homes suited to your needs. Whether updating one room or planning a larger renovation, we provide dependable workmanship throughout.",
     image: "/projects/bathroom2.webp",
     flip: true
   },
@@ -31,12 +31,13 @@ export default function Expertise() {
       <div className="mx-auto max-w-7xl px-6 py-10 flex flex-col">
         <div className="flex flex-col justify-start">
           <div className="flex flex-col gap-2">
-            <p className="max-w-md text-lg lg:text-xl font-bold text-[#4E8CA2]">
+            <p className="text-xl font-medium text-[#4E8CA2]">
               Expertise
             </p>
-            <p className="max-w-md text-3xl font-bold">
+
+            <h2 className="max-w-xs text-4xl font-medium leading-tight text-[#202A36]">
               Our Focus Areas
-            </p>
+            </h2>
           </div>
           <div className="flex flex-col-reverse lg:flex-row lg:items-end my-5 gap-5 pb-5 md:pb-20">
             <Image
@@ -46,7 +47,7 @@ export default function Expertise() {
               height={800}
               className="h-auto lg:max-h-[calc(100svh-12rem)] w-auto max-w-full object-contain"
             />
-            <h2 className="max-w-2xl lg:max-w-xs text-md font-semibold">
+            <h2 className="max-w-2xl lg:max-w-xs text-lg font-medium">
               We build and renovate homes, small businesses, and outdoor spaces, from kitchens and bathrooms to decks, fences, painting, and repairs.
             </h2>
           </div>

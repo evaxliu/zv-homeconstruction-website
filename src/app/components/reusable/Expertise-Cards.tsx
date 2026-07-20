@@ -15,14 +15,14 @@ export default function ExpertiseCards({idx, title, description, image, flip} : 
         <div className="flex flex-col lg:flex-row lg:justify-between lg:gap-30">
           <div className="flex flex-col justify-between gap-3 lg:gap-0 my-5 lg:my-0">
             <div>
-              <p className="max-w-md text-lg font-bold text-[#4E8CA2]">
+              <p className="max-w-md text-xl font-medium text-[#4E8CA2]">
                 {idx}
               </p>
-              <h3 className="max-w-md text-xl font-bold">
+              <h3 className="max-w-md text-2xl font-medium">
                 {title}
               </h3>
             </div>
-            <p className="max-w-2xl lg:max-w-xs text-md font-semibold">
+            <p className="max-w-2xl lg:max-w-xs text-lg font-medium">
               {description}
             </p>
           </div>
@@ -49,14 +49,14 @@ export default function ExpertiseCards({idx, title, description, image, flip} : 
           </div>
           <div className="flex flex-col justify-between gap-3 lg:gap-0 my-5 lg:my-0">
             <div className="flex flex-col">
-              <p className="max-w-md text-lg font-bold text-[#4E8CA2]">
+              <p className="max-w-md text-xl font-medium text-[#4E8CA2]">
                 {idx}
               </p>
-              <h3 className="max-w-md text-lg font-bold">
+              <h3 className="max-w-md text-2xl font-medium">
                 {title}
               </h3>
             </div>
-            <p className="max-w-2xl lg:max-w-xs text-md font-semibold">
+            <p className="max-w-2xl lg:max-w-xs text-lg font-medium">
               {description}
             </p>
           </div>
