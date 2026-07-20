@@ -59,7 +59,7 @@ export default function ContactUs() {
 
   return(
     <section className="w-full text-[#202A36]" id="contact">
-      <div className="mx-auto max-w-7xl px-6 py-20 flex flex-col lg:flex-row justify-between min-h-[calc(100svh-80px)]">
+      <div className="mx-auto max-w-7xl px-6 py-10 flex flex-col lg:flex-row justify-between min-h-[calc(100svh-80px)]">
         <div className="flex flex-col items-start justify-center gap-10">
           <div className="flex flex-col gap-3">
             <p className="max-w-md text-xl font-medium text-[#4E8CA2]">

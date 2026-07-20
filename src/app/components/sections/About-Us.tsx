@@ -10,8 +10,8 @@ const stats = [
 export default function AboutUs() {
   return(
     <section className="w-full text-[#202A36]">
-      <div className="mx-auto max-w-7xl px-6 flex flex-col">
-        <div className="flex flex-col justify-start pt-20">
+      <div className="mx-auto max-w-7xl px-6 py-10 flex flex-col">
+        <div className="flex flex-col justify-start">
           <div className="flex flex-col lg:flex-row lg:items-start my-5 gap-5 pb-5 md:pb-20">
             <div className="flex flex-col gap-2">
               <p className="max-w-md text-xl font-medium text-[#4E8CA2]">
