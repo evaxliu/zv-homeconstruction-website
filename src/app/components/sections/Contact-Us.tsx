@@ -119,8 +119,8 @@ export default function ContactUs() {
             <p
               className={`
                 w-0 min-w-full whitespace-normal wrap-anywhere text-left text-sm
-                ${isSuccess === true ? "text-green-300" : ""}
-                ${isSuccess === false ? "text-red-300" : ""}
+                ${isSuccess === true ? "text-[#202A36]" : ""}
+                ${isSuccess === false ? "text-red-800" : ""}
               `}
             >
               {result}
