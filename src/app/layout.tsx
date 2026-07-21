@@ -1,28 +1,29 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import NavBar from "./components/NavBar";
+import NavBar from "./components/reusable/NavBar";
+import Footer from "./components/reusable/Footer";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://zv-homeconstruction-website.vercel.app/"),
 
   title: "Z&V Homeconstruction LLC | General Contractor in Bothell, WA",
-  description: "Z&V Homeconstruction LLC provides residential and small commercial renovation services in Bothell, WA and the Greater Seattle Area.",
+  description: "Z&V Homeconstruction LLC provides residential, small commercial renovation and handyman services in Bothell, WA and the Greater Seattle Area.",
   icons: {
     icon: [
-      { url: "/zvicon.jpg" },
-      { url: "/zvicon.jpg", sizes: "48x48", type: "image/jpg" },
+      { url: "/zv-icon-light.png" },
+      { url: "/zv-icon-light.png", sizes: "48x48", type: "image/png" },
     ],
   },
 
   openGraph: {
     title: "Z&V Homeconstruction LLC | General Contractor in Bothell, WA",
     description:
-      "Residential and small commercial renovation services in Bothell, WA and the Greater Seattle Area.",
+      "Z&V Homeconstruction LLC provides residential, small commercial renovation and handyman services in Bothell, WA and the Greater Seattle Area.",
     url: "https://zv-homeconstruction-website.vercel.app/",
     siteName: "Z&V Homeconstruction LLC",
     images: [
       {
-        url: "/zvicon.jpg",
+        url: "/zv-icon-light.png",
         width: 1200,
         height: 630,
         alt: "Z&V Homeconstruction LLC",
@@ -41,13 +42,14 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className="h-full antialiased"
+      className="h-full"
     >
       <body className="min-h-full flex flex-col">
         <NavBar />
         <main>
           {children}
         </main>
+        <Footer />
       </body>
     </html>
   );
