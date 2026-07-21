@@ -26,7 +26,7 @@ export default function Main() {
           alt={"Minimalist Architecture"}
           width={6067}
           height={3400}
-          className="h-auto lg:max-h-[calc(100svh-12rem)] w-full max-w-full object-contain pt-10"
+          className="h-auto w-full max-w-full object-contain pt-10"
         />
       </div>
     </section>
