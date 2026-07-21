@@ -60,10 +60,30 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col justify-between pt-5 gap-5">
-          <p className="font-medium">
+        <div className="flex flex-col justify-between pt-5">
+          <p className="font-medium pb-5">
             © 2026 Z&V Home Construction LLC · Licensed, Bonded & Insured · License Number: ZVHOMHL798NF
  · Bothell, WA
+          </p>
+          <p className="text-xs text-gray-500">
+            <a href="https://www.vecteezy.com/free-photos/minimal-architecture" target="_blank" rel="noopener noreferrer" className="underline">
+              Minimal Architecture Stock photos
+            </a>
+            ,{" "}
+            <a href="https://www.vecteezy.com/free-photos/building" target="_blank" rel="noopener noreferrer" className="underline">
+              Building Stock photos
+            </a>
+            ,{" "}
+            <a href="https://www.vecteezy.com/free-photos/blue" target="_blank" rel="noopener noreferrer" className="underline">Blue Stock photos</a>
+            ,{" "}
+            <a href="https://www.vecteezy.com/free-photos/architecture" target="_blank" rel="noopener noreferrer" className="underline">Architecture Stock photos</a>
+            ,{" "}
+            <a href="https://www.vecteezy.com/free-photos/white" target="_blank" rel="noopener noreferrer" className="underline">White Stock photos</a>
+            {" "}by{" "}
+            <a href="https://www.vecteezy.com/" target="_blank" rel="noopener noreferrer" className="underline">
+              Vecteezy
+            </a>
+            .
           </p>
           <p className="text-xs text-gray-500">
             Icons made by{" "}

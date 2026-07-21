@@ -3,12 +3,15 @@ import Image from "next/image";
 const pictures = [
   {title: "Blue Fireplace", image: "/projects/fireplace/fireplace_blue.webp", width: 1536, height: 2048},
   {title: "Blue Marble Shower Side View", image: "/projects/bathroom/blue_marble_shower_side.webp", width: 1536, height: 2048},
+  {title: "Salon Small Commercial Construction", image: "/projects/commercial/salon-enhanced.webp", width: 2048, height: 1536},
   {title: "Bathtub Closeup", image: "/projects/bathroom/bathtub_closeup.webp", width: 2048, height: 1536},
-  {title: "House Outside Stairs", image: "/projects/outside/house_stairs.webp", width: 1134, height: 1512},
   {title: "Full Sink White", image: "/projects/bathroom/full_sink_2.webp", width: 765, height: 1020},
   {title: "Full Kitchen", image: "/projects/kitchen/full_kitchen.webp", width: 2048, height: 1536},
+  {title: "Exterior Stairs", image: "/projects/outside/stairs.webp", width: 2016, height: 1512},
+  {title: "Full Bathroom View", image: "/projects/bathroom/full_bathroom_tub.webp", width: 2048, height: 1536},
+  {title: "House Outside Stairs", image: "/projects/outside/house_stairs.webp", width: 1134, height: 1512},
   {title: "Full Sink Brown", image: "/projects/bathroom/full_sink.webp", width: 1536, height: 2048},
-  {title: "Bathtub Side View", image: "/projects/bathroom/bathtub_side.webp", width: 1134, height: 1512},
+  {title: "Exterior Renovation", image: "/projects/outside/outside.webp", width: 1360, height: 1020},
   {title: "Blue Marble Shower Front View", image: "/projects/bathroom/blue_marble_shower_front.webp", width: 1536, height: 2048},
 ]
 

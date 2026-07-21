@@ -6,28 +6,28 @@ const expertise_types = [
     idx: 1,
     title: "Residential",
     description: "From kitchen and bathroom renovations to flooring upgrades and full-home remodels, we transform outdated spaces into functional homes suited to your needs. Whether updating one room or planning a larger renovation, we provide dependable workmanship throughout.",
-    image: "/projects/bathroom/full_bathroom_tub.webp",
+    image: "/blue_interior.jpeg",
     flip: true,
-    width: 2048,
-    height: 1536
+    width: 5824,
+    height: 3264
   },
   {
     idx: 2,
     title: "Small Commercial",
     description: "We provide interior and exterior renovation services for shops, restaurants, offices, and other small commercial spaces. Our work can help refresh the appearance of your property, improve how the space functions, and create a more welcoming environment for customers and employees.",
-    image: "/projects/commercial/salon-enhanced.webp",
+    image: "/blue_building.jpg",
     flip: false,
-    width: 2048,
-    height: 1536
+    width: 2912,
+    height: 1632
   },
   {
     idx: 3,
     title: "Exterior & Repairs",
     description: "We build and repair decks and fences, complete interior and exterior painting, and take care of smaller improvement and maintenance projects. From necessary repairs to finishing touches, we help keep your property safe, functional, and well maintained.",
-    image: "/projects/outside/stairs.webp",
+    image: "/blue_stairs.jpg",
     flip: true,
-    width: 2016,
-    height: 1512
+    width: 7280,
+    height: 4080
   }
 ]
 
@@ -47,10 +47,10 @@ export default function Expertise() {
           </div>
           <div className="flex flex-col-reverse lg:flex-row lg:items-end my-5 gap-5 pb-5 md:pb-20">
             <Image
-              src={"/projects/outside/outside.webp"}
-              alt={"Exterior renovation"}
-              width={1360}
-              height={1020}
+              src={"/blue_house.jpeg"}
+              alt={"Blue house stock"}
+              width={5824}
+              height={3328}
               className="h-auto lg:max-h-[calc(100svh-12rem)] w-full max-w-220 object-contain"
             />
             <h2 className="max-w-2xl lg:max-w-xs text-lg font-medium">

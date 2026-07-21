@@ -21,14 +21,6 @@ export const metadata: Metadata = {
       "Z&V Homeconstruction LLC provides residential, small commercial renovation and handyman services in Bothell, WA and the Greater Seattle Area.",
     url: "zvhomes.org",
     siteName: "Z&V Homeconstruction LLC",
-    images: [
-      {
-        url: "/zv-icon-light.png",
-        width: 1200,
-        height: 630,
-        alt: "Z&V Homeconstruction LLC",
-      },
-    ],
     locale: "en_US",
     type: "website",
   },
