@@ -10,7 +10,7 @@ export default function Main() {
           </h1>
         </div>
         <div className="flex flex-col md:flex-row md:justify-between md:items-end">
-          <p className="max-w-md md:max-w-xl text-7xl md:text-8xl font-semibold text-[#202A36]">
+          <p className="max-w-md md:max-w-xl text-5xl sm:text-6xl md:text-8xl font-semibold text-[#202A36]">
             Your satisfaction is our goal
           </p>
           <div
