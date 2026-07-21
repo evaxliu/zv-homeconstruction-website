@@ -23,11 +23,11 @@ export default function AboutUs() {
             </div>
           <div className="flex flex-col items-center mt-10">
             <Image
-              src={"/construction-worker-t.png"}
-              alt={""}
-              width={600}
-              height={600}
-              className="h-auto w-auto max-w-full object-contain"
+              src={"/construction-worker.webp"}
+              alt={"construction worker outline"}
+              width={1600}
+              height={812}
+              className="h-auto w-full max-w-160 object-contain"
             />
           </div>
           </div>

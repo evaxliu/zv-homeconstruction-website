@@ -6,22 +6,28 @@ const expertise_types = [
     idx: 1,
     title: "Residential",
     description: "From kitchen and bathroom renovations to flooring upgrades and full-home remodels, we transform outdated spaces into functional homes suited to your needs. Whether updating one room or planning a larger renovation, we provide dependable workmanship throughout.",
-    image: "/projects/bathroom2.webp",
-    flip: true
+    image: "/projects/bathroom/full_bathroom_tub.webp",
+    flip: true,
+    width: 2048,
+    height: 1536
   },
   {
     idx: 2,
     title: "Small Commercial",
     description: "We provide interior and exterior renovation services for shops, restaurants, offices, and other small commercial spaces. Our work can help refresh the appearance of your property, improve how the space functions, and create a more welcoming environment for customers and employees.",
-    image: "/projects/salon1-enhanced.webp",
-    flip: false
+    image: "/projects/commercial/salon-enhanced.webp",
+    flip: false,
+    width: 2048,
+    height: 1536
   },
   {
     idx: 3,
     title: "Exterior & Repairs",
     description: "We build and repair decks and fences, complete interior and exterior painting, and take care of smaller improvement and maintenance projects. From necessary repairs to finishing touches, we help keep your property safe, functional, and well maintained.",
-    image: "/projects/stair1.avif",
-    flip: true
+    image: "/projects/outside/stairs.webp",
+    flip: true,
+    width: 2016,
+    height: 1512
   }
 ]
 
@@ -41,11 +47,11 @@ export default function Expertise() {
           </div>
           <div className="flex flex-col-reverse lg:flex-row lg:items-end my-5 gap-5 pb-5 md:pb-20">
             <Image
-              src={"/projects/outside1.webp"}
-              alt={""}
-              width={800}
-              height={800}
-              className="h-auto lg:max-h-[calc(100svh-12rem)] w-auto max-w-full object-contain"
+              src={"/projects/outside/outside.webp"}
+              alt={"Exterior renovation"}
+              width={1360}
+              height={1020}
+              className="h-auto lg:max-h-[calc(100svh-12rem)] w-auto max-w-220 object-contain"
             />
             <h2 className="max-w-2xl lg:max-w-xs text-lg font-medium">
               We build and renovate homes, small businesses, and outdoor spaces, from kitchens and bathrooms to decks, fences, painting, and repairs.
@@ -60,6 +66,8 @@ export default function Expertise() {
               title={expertise.title}
               description={expertise.description}
               image={expertise.image}
+              width={expertise.width}
+              height={expertise.height}
               flip={expertise.flip}
             />
           ))}

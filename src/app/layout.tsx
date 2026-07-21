@@ -4,7 +4,7 @@ import NavBar from "./components/reusable/NavBar";
 import Footer from "./components/reusable/Footer";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://zv-homeconstruction-website.vercel.app/"),
+  metadataBase: new URL("https://www.zvhomes.org/"),
 
   title: "Z&V Homeconstruction LLC | General Contractor in Bothell, WA",
   description: "Z&V Homeconstruction LLC provides residential, small commercial renovation and handyman services in Bothell, WA and the Greater Seattle Area.",
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     title: "Z&V Homeconstruction LLC | General Contractor in Bothell, WA",
     description:
       "Z&V Homeconstruction LLC provides residential, small commercial renovation and handyman services in Bothell, WA and the Greater Seattle Area.",
-    url: "https://zv-homeconstruction-website.vercel.app/",
+    url: "zvhomes.org",
     siteName: "Z&V Homeconstruction LLC",
     images: [
       {

@@ -1,15 +1,15 @@
 import Image from "next/image";
 
 const pictures = [
-  {title: "Handyman", image: "/projects/fireplace-blue.jpg"},
-  {title: "Bathroom", image: "/projects/bathroom1.png"},
-  {title: "Remodeling", image: "/projects/house1.avif"},
-  {title: "Flooring", image: "/projects/kitchen1.avif"},
-  {title: "Drywall", image: "/projects/outside1.webp"},
-  {title: "Carpentry", image: "/projects/shower1.avif"},
-  {title: "Restaurants", image: "/projects/bathtub1.avif"},
-  {title: "Salons", image: "/projects/toilet1.avif"},
-  {title: "Bathrooms", image: "/projects/bathroom2.webp"}
+  {title: "Blue Fireplace", image: "/projects/fireplace/fireplace_blue.webp", width: 1536, height: 2048},
+  {title: "Blue Marble Shower Side View", image: "/projects/bathroom/blue_marble_shower_side.webp", width: 1536, height: 2048},
+  {title: "Bathtub Closeup", image: "/projects/bathroom/bathtub_closeup.webp", width: 2048, height: 1536},
+  {title: "House Outside Stairs", image: "/projects/outside/house_stairs.webp", width: 1134, height: 1512},
+  {title: "Full Sink White", image: "/projects/bathroom/full_sink_2.webp", width: 765, height: 1020},
+  {title: "Full Kitchen", image: "/projects/kitchen/full_kitchen.webp", width: 2048, height: 1536},
+  {title: "Full Sink Brown", image: "/projects/bathroom/full_sink.webp", width: 1536, height: 2048},
+  {title: "Bathtub Side View", image: "/projects/bathroom/bathtub_side.webp", width: 1134, height: 1512},
+  {title: "Blue Marble Shower Front View", image: "/projects/bathroom/blue_marble_shower_front.webp", width: 1536, height: 2048},
 ]
 
 export default function Projects() {

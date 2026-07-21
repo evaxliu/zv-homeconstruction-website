@@ -5,10 +5,12 @@ type expertiseProps = {
   title: string,
   description: string,
   image: string,
+  width: number,
+  height: number,
   flip: boolean
 }
 
-export default function ExpertiseCards({idx, title, description, image, flip} : expertiseProps) {
+export default function ExpertiseCards({idx, title, description, image, width, height, flip} : expertiseProps) {
   return(
     <section className="w-full text-[#202A36] my-5 lg:my-10">
       {flip ?
@@ -30,9 +32,9 @@ export default function ExpertiseCards({idx, title, description, image, flip} : 
             <Image
               src={image}
               alt={""}
-              width={800}
-              height={800}
-              className="h-auto lg:max-h-[calc(100svh-12rem)] w-auto max-w-full object-contain"
+              width={width}
+              height={height}
+              className="h-auto lg:max-h-[calc(100svh-12rem)] w-auto max-w-200 object-contain"
             />
           </div>
         </div>
@@ -42,9 +44,9 @@ export default function ExpertiseCards({idx, title, description, image, flip} : 
             <Image
               src={image}
               alt={""}
-              width={800}
-              height={800}
-              className="h-auto lg:max-h-[calc(100svh-12rem)] w-auto max-w-full"
+              width={width}
+              height={height}
+              className="h-auto lg:max-h-[calc(100svh-12rem)] w-auto max-w-200 object-contain"
             />
           </div>
           <div className="flex flex-col justify-between gap-3 lg:gap-0 my-5 lg:my-0">
