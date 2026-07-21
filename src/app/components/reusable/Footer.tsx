@@ -62,7 +62,8 @@ export default function Footer() {
         </div>
         <div className="flex flex-col justify-between pt-5 gap-5">
           <p className="font-medium">
-            © 2026 Z&V Home Construction LLC · Licensed, Bonded & Insured · Bothell, WA
+            © 2026 Z&V Home Construction LLC · Licensed, Bonded & Insured · License Number: ZVHOMHL798NF
+ · Bothell, WA
           </p>
           <p className="text-xs text-gray-500">
             Icons made by{" "}
