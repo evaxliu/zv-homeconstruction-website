@@ -34,7 +34,7 @@ export default function ExpertiseCards({idx, title, description, image, width, h
               alt={""}
               width={width}
               height={height}
-              className="h-auto lg:max-h-[calc(100svh-12rem)] w-auto max-w-200 object-contain"
+              className="h-auto lg:max-h-[calc(100svh-12rem)] w-full max-w-220 object-contain"
             />
           </div>
         </div>
@@ -46,7 +46,7 @@ export default function ExpertiseCards({idx, title, description, image, width, h
               alt={""}
               width={width}
               height={height}
-              className="h-auto lg:max-h-[calc(100svh-12rem)] w-auto max-w-200 object-contain"
+              className="h-auto lg:max-h-[calc(100svh-12rem)] w-full max-w-200 object-contain"
             />
           </div>
           <div className="flex flex-col justify-between gap-3 lg:gap-0 my-5 lg:my-0">

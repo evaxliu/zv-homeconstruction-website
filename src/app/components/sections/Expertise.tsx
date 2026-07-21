@@ -51,7 +51,7 @@ export default function Expertise() {
               alt={"Exterior renovation"}
               width={1360}
               height={1020}
-              className="h-auto lg:max-h-[calc(100svh-12rem)] w-auto max-w-220 object-contain"
+              className="h-auto lg:max-h-[calc(100svh-12rem)] w-full max-w-220 object-contain"
             />
             <h2 className="max-w-2xl lg:max-w-xs text-lg font-medium">
               We build and renovate homes, small businesses, and outdoor spaces, from kitchens and bathrooms to decks, fences, painting, and repairs.
