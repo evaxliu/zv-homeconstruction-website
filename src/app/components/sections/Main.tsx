@@ -5,7 +5,7 @@ export default function Main() {
     <section className="w-full">
       <div className="mx-auto max-w-7xl px-6 py-10 min-h-[calc(100svh-80px)] flex flex-col justify-evenly">
         <div className="flex justify-end">
-          <h1 className="max-w-sm md:max-w-lg text-right text-2xl font-medium text-[#202A36]">
+          <h1 className="max-w-sm md:max-w-lg text-right text-lg sm:text-xl md:text-2xl font-medium text-[#202A36]">
             Experienced & Reliable Builders, proudly serving since 2021 with dedication and quality craftsmanship
           </h1>
         </div>
