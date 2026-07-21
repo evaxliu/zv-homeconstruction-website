@@ -13,7 +13,7 @@ const expertise_types = [
     idx: 2,
     title: "Small Commercial",
     description: "We provide interior and exterior renovation services for shops, restaurants, offices, and other small commercial spaces. Our work can help refresh the appearance of your property, improve how the space functions, and create a more welcoming environment for customers and employees.",
-    image: "/projects/salon1-enhanced.png",
+    image: "/projects/salon1-enhanced.webp",
     flip: false
   },
   {
