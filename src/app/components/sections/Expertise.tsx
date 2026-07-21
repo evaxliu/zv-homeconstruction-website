@@ -6,7 +6,7 @@ const expertise_types = [
     idx: 1,
     title: "Residential",
     description: "From kitchen and bathroom renovations to flooring upgrades and full-home remodels, we transform outdated spaces into functional homes suited to your needs. Whether updating one room or planning a larger renovation, we provide dependable workmanship throughout.",
-    image: "/blue_interior.jpeg",
+    image: "/blue_interior.webp",
     flip: true,
     width: 5824,
     height: 3264
@@ -15,7 +15,7 @@ const expertise_types = [
     idx: 2,
     title: "Small Commercial",
     description: "We provide interior and exterior renovation services for shops, restaurants, offices, and other small commercial spaces. Our work can help refresh the appearance of your property, improve how the space functions, and create a more welcoming environment for customers and employees.",
-    image: "/blue_building.jpg",
+    image: "/blue_building.webp",
     flip: false,
     width: 2912,
     height: 1632
@@ -24,7 +24,7 @@ const expertise_types = [
     idx: 3,
     title: "Exterior & Repairs",
     description: "We build and repair decks and fences, complete interior and exterior painting, and take care of smaller improvement and maintenance projects. From necessary repairs to finishing touches, we help keep your property safe, functional, and well maintained.",
-    image: "/blue_stairs.jpg",
+    image: "/blue_stairs.webp",
     flip: true,
     width: 7280,
     height: 4080
@@ -47,7 +47,7 @@ export default function Expertise() {
           </div>
           <div className="flex flex-col-reverse lg:flex-row lg:items-end my-5 gap-5 pb-5 md:pb-20">
             <Image
-              src={"/blue_house.jpeg"}
+              src={"/blue_house.webp"}
               alt={"Blue house stock"}
               width={5824}
               height={3328}

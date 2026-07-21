@@ -22,7 +22,7 @@ export default function Main() {
           </div>
         </div>
         <Image
-          src={"/blue_slab.jpg"}
+          src={"/blue_slab.webp"}
           alt={"Minimalist Architecture"}
           width={6067}
           height={3400}
