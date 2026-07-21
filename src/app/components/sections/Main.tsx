@@ -27,6 +27,7 @@ export default function Main() {
           width={6067}
           height={3400}
           className="h-auto w-full max-w-full object-contain pt-10"
+          loading="eager"
         />
       </div>
     </section>
