@@ -1,4 +1,5 @@
 import { ArrowDown } from 'lucide-react';
+import Image from 'next/image';
 
 export default function Main() {
   return(
@@ -20,6 +21,13 @@ export default function Main() {
             <ArrowDown size={28} strokeWidth={1.75} />
           </div>
         </div>
+        <Image
+          src={"/blue-slab.jpg"}
+          alt={"Minimalist Architecture"}
+          width={6067}
+          height={3400}
+          className="h-auto lg:max-h-[calc(100svh-12rem)] w-full max-w-full object-contain pt-10"
+        />
       </div>
     </section>
   );
