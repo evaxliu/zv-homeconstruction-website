@@ -46,7 +46,7 @@ const localBusinessJsonLd = {
         "Saturday",
         "Sunday"
       ],
-      opens: "09:00",
+      opens: "08:00",
       closes: "19:00",
     },
   ],
