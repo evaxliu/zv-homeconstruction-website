@@ -24,7 +24,7 @@ export default function NavBar() {
           <button 
             key={"Get a Quote"}
             onClick={scrollToSection}
-            className={"text-[#202A36] px-3 py-2 text-md font-medium hover:cursor-pointer hover:underline"}
+            className={"text-[#202A36] font-bold py-2 text-lg hover:cursor-pointer hover:underline"}
           >
             Get a Quote
           </button>

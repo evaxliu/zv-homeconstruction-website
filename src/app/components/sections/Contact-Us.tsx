@@ -10,7 +10,7 @@ const phones = [
 const businessInfo = [
   { title: "EMAIL", info: "zvhomeconstruction@gmail.com" },
   { title: "OFFICE", info: "18949 108th Ave NE, Bothell, WA 98011" },
-  { title: "HOURS", info: "Mon–Fri, 7am – 5pm" }
+  { title: "HOURS", info: "Everyday, 9am - 7pm" }
 ]
 
 export default function ContactUs() {
